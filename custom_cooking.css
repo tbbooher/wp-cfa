@@ -9,11 +9,11 @@ body {
 
 #header_image {
 	/*:Header height*/
-	padding-top:200px;
+	padding-top:30px;
 	/*:Header image*/
-	background-image:url(images/headers/592963_58650497.jpg);
 	/*:Header image alignment*/
-	background-position:center;
+	float:left;
+	position:relative;
 }
 
 .sidebar_left #frame {

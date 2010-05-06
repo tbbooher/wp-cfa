@@ -26,11 +26,12 @@ $freshy_options = get_option('freshy_options');
 <div id="body">
 
 <div id="header">
+<img src="/wp-content/themes/freshy2/images/CFA-Logo.png" alt="CrossFit Adaptation" width="380" height="103" id="header_image" />
 	<div class="container">
 		<div id="title">
 			<h1>
 				<a href="<?php echo get_settings('home'); ?>">
-					<span><img src="/wp-content/themes/freshy2/images/CFA-Logo.png" alt="CrossFit Adaptation" width="380" height="103" /></span>
+					<span>CFA</span>
 				</a>
 	    </h1>
         	<!--
