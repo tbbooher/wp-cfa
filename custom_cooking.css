@@ -7,13 +7,17 @@ body {
 	background-color:#FFF;
 }
 
-#header_image {
+#logo {
 	/*:Header height*/
-	padding-top:30px;
 	/*:Header image*/
 	/*:Header image alignment*/
 	float:left;
-	position:relative;
+	left:160px;
+	top: 15px;
+	height:82px;
+	width:380px;
+	position:absolute;
+	z-index:200;
 }
 
 .sidebar_left #frame {

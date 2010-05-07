@@ -78,7 +78,7 @@ a img {
 
 #header_image {
 	padding-top:200px;
-	background-image:url(images/headers/499153_79030836.jpg);
+	background-image:url(images/headers/splash.png);
 	background-position:center;
 }
 
@@ -118,9 +118,10 @@ h1 a {
 	position:absolute;
 	right:0;
 	top:0;
-	padding:13px 23px 13px 13px;
+/*	padding:13px 23px 13px 13px;*/
 	margin:0;
 	list-style:none;
+	background-color:red;
 }
 
 #quicklinks #searchform {
@@ -138,10 +139,11 @@ h1 a {
 }
 
 #quicklinks ul {
-	list-style:none;
+	list-style-type:none;
 	padding:0;
 	margin:0;
 	float:left;
+	height:35px;
 }
 
 * html #quicklinks {
@@ -156,12 +158,12 @@ h1 a {
 	float:left;
 	text-transform:lowercase;
 	color:#8d8d8d;
+	height:35px;
 }
 
 #quicklinks ul li a {
 	margin-left:20px;
-	height:3.5em;
-	line-height:3.5em;
+	height:20px;
 	text-decoration:none;
 	color:#8d8d8d;
 	display:inline;

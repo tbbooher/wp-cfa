@@ -26,12 +26,12 @@ $freshy_options = get_option('freshy_options');
 <div id="body">
 
 <div id="header">
-<img src="/wp-content/themes/freshy2/images/CFA-Logo.png" alt="CrossFit Adaptation" width="380" height="103" id="header_image" />
+<img src="/wp-content/themes/freshy2/images/CFA-Logo.png" alt="CrossFit Adaptation" width="380" height="82" id="logo" />
 	<div class="container">
 		<div id="title">
 			<h1>
 				<a href="<?php echo get_settings('home'); ?>">
-					<span>CFA</span>
+					<span></span>
 				</a>
 	    </h1>
         	<!--
@@ -62,7 +62,7 @@ $freshy_options = get_option('freshy_options');
 				<?php if($freshy_options['header_search']) : include (TEMPLATEPATH . '/searchform.php');  endif; ?>
 			</div>
 		</div>
-        <!-- 
+        
 		<div id="header_image">
 
 			<div id="menu">
@@ -125,7 +125,7 @@ $freshy_options = get_option('freshy_options');
 			</div>
 			
 		</div>
-        -->
+        <!-- end image div -->
 	</div>
 </div>
 	
