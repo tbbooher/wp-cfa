@@ -3,15 +3,19 @@ define ('TEMPLATE_DOMAIN','freshy2');
 load_theme_textdomain(TEMPLATE_DOMAIN);
 global $freshy_options;
 $freshy_options = get_option('freshy_options');
-?>	
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+<title>
+<?php bloginfo('name'); ?>
+<?php wp_title(); ?>
+</title>
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" title="Freshy"/>
+
 <!--[if lte IE 6]>
 <link rel="stylesheet" href="<?php print get_bloginfo('stylesheet_directory').'/fix-ie.php'; ?>" type="text/css" media="screen"/>
 <![endif]-->
@@ -24,45 +28,51 @@ $freshy_options = get_option('freshy_options');
 </head>
 <body>
 <div id="body">
-
-<div id="header">
-<img src="/wp-content/themes/freshy2/images/CFA-Logo.png" alt="CrossFit Adaptation" width="380" height="82" id="logo" />
-	<div class="container">
-		<div id="title">
-			<h1>
-				<a href="<?php echo get_settings('home'); ?>">
-					<span></span>
-				</a>
-	    </h1>
-        	<!--
+<div id="header"> <img src="/wp-content/themes/freshy2/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" />
+  <div class="container">
+    <div id="title">
+      <h1> <a href="<?php echo get_settings('home'); ?>"> <span></span> </a> </h1>
+      <!--
 			<div class="description">
 				<small><?php bloginfo('description'); ?></small>
 			</div>
             -->
-			<div id="quicklinks">
-				<ul>
-					<?php if ($freshy_options['custom_quicklinks'])
+      <div id="menu">
+        <div class="menu_container">
+          <ul>
+            <li><a href="/about_us/"><img src="/wp-content/themes/freshy2/images/menu/about_us.png" alt="About Us" width="88" height="34"  />
+<div>See why we're different</div></a></li>
+            <li><a href="/getting-started/"><img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
+<div>Ready for change?</div></a> </li>
+            <li><a href="/blog/"><img src="/wp-content/themes/freshy2/images/menu/blog.png" alt="Blog" width="47" height="34"  /><div>Experience our community</div></a></li>
+          </ul>
+        </div>
+        <!--
+        <div class="menu_container">
+          <ul>
+            <?php if ($freshy_options['custom_quicklinks'])
 					{
 						foreach ($freshy_options['custom_quicklinks'] as $custom_quicklink)
 						{
 							?>
-							<li>
-								<a href="<?php echo $custom_quicklink['url']; ?>">
-									<?php _e($custom_quicklink['label'],TEMPLATE_DOMAIN); ?>
-								</a>
-							</li>
-							<?php
+            <li> <a href="<?php echo $custom_quicklink['url']; ?>">
+              <?php _e($custom_quicklink['label'],TEMPLATE_DOMAIN); ?>
+              </a> </li>
+            <?php
 						}
 					}
 					?>
-					<?php if($freshy_options['header_rss']) : ?>
-						<li><a title="rss" href="<?php bloginfo('rss2_url'); ?>" class="rss">rss</a></li>
-					<?php endif; ?>
-				</ul>
-				<?php if($freshy_options['header_search']) : include (TEMPLATEPATH . '/searchform.php');  endif; ?>
-			</div>
-		</div>
-        
+            <?php if($freshy_options['header_rss']) : ?>
+            <li><a title="rss" href="<?php bloginfo('rss2_url'); ?>" class="rss">rss</a></li>
+            <?php endif; ?>
+          </ul>
+          <?php if($freshy_options['header_search']) : include (TEMPLATEPATH . '/searchform.php');  endif; ?>
+        </div><!-- menu container --> 
+        <span class="menu_end"></span> --> </div>
+      <!-- menu --> 
+    </div>
+    <!-- title --> 
+    <!--
 		<div id="header_image">
 
 			<div id="menu">
@@ -103,7 +113,8 @@ $freshy_options = get_option('freshy_options');
 					
 				<?php if ($freshy_options['last_menu_type']=='email') : ?>
 						
-					<a href="mailto:<?php echo $freshy_options['contact_email']; ?>">
+				
+	<a href="mailto:<?php echo $freshy_options['contact_email']; ?>">
 						<?php _e($freshy_options['last_menu_label'],TEMPLATE_DOMAIN); ?>
 					</a>
 						
@@ -125,10 +136,10 @@ $freshy_options = get_option('freshy_options');
 			</div>
 			
 		</div>
-        <!-- end image div -->
-	</div>
+		--> 
+    <!-- end image div --> 
+  </div>
 </div>
-	
 <div id="page" <?php echo freshy_layout_class() ?>>
-	<div class="container">
-		<div id="frame">
+<div class="container">
+<div id="frame">

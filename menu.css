@@ -6,19 +6,23 @@
 }
 
 #menu {
-background:none repeat scroll 0 0 transparent;
-height:30px;
-margin-top:0;
-padding:0;
+    background:none repeat scroll 0 0 transparent;
+    height:48px;
+    margin-top:0;
+    padding:0;
+    position:absolute;
+    right:0;
+    top:0;
 }
 
 html>body #menu {
+/*
 	background-image:url(images/transparency/black-60.png);
+*/
 }
 
 #menu .menu_container {
 	height:48px;
-	line-height:48px;
 	margin:0px 11px 0 0;
 	padding:11px 0 0 11px;
 }
@@ -27,133 +31,61 @@ html>body #menu {
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	height:37px;
-	line-height:37px;
-	width:100%;
+	height:30px;
 	background:center left transparent repeat-x;
-	position:relative;
+/*	position:relative; */
+	padding-left:360px;
 }
 
 #menu ul li {
-	font-size:.9em;
-}
-
-#menu ul li li {
-	font-size:1em;
-}
-
-#menu ul li ul {
-	list-style-type:none;
-	margin:0;
-	padding:5px 0 5px 0;
-	height:auto;
-	line-height:auto;
-	width:auto;
-	position:absolute;
-	top:37px;
-	left:0;
-	display:none;
-	opacity:.9;
-	filter:alpha(opacity=90);
-	background:#313131;
-	border:0px none;
-}
-
-#menu ul li ul ul {
-	filter:none;
-	opacity:1;
-	background:none;
-}
-
-#menu ul li:hover {
-	position:relative;
-	z-index:90;
-}
-
-#menu ul li:hover ul {
-	display:block;
-}
-
-#menu ul li ul ul {
-	position:relative;
-	top:0;
-	padding:0;
-	margin:0;
+    position:relative;
+    z-index:90;
 }
 
 #menu ul li {
-	background:none;
-	padding:0;
-	vertical-align:middle;
-	float:left;
-	position:relative;
-	height:37px;
-	line-height:37px;
-	position:relative;
+    width:130px;
+    text-align:center;
+    float:left;
+    display:block;
 }
 
-#menu ul li li {
-	float:none;
-	clear:both;
-	width:auto;
-	height:auto;
-	margin:0;
-	padding:0;
-	white-space:nowrap;
-	display:block;
-	position:relative;
-	line-height:1.3em;
-}
-
-#menu ul li li li {
-	padding:0 0 0 2em;
-}
-
-* html #menu ul li li {
-	width:200px;
+.menu_modifier {
+    background-color:blue;
+    height:11px;
+    height:12px;
 }
 
 #menu ul li a {
-	font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
-	text-transform:uppercase;
-	display:block;
-	padding:0 10px 0 10px;
-	font-weight:normal;
-	color:#ffffff;
-	text-decoration:none;
-	height:37px;
-	line-height:37px;
-	white-space:nowrap;
+    font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    display:block;
+    padding:0 2px;
+    font-weight:normal;
+    color:#FFF;
+    text-decoration:none;
+    width:130px;
+    height:90px;
+}
+
+#menu ul li a:hover {
+    display:block;
+    color:#000;
 }
 
 * html #menu ul li a {
 	width:10px;
 }
 
-* html #menu ul li li a, * html #menu ul li li ul {
-	width:100%;
-}
-
-#menu ul li ul li a {
-	text-transform:none;
-	display:block;
-	font-weight:normal;
-	position:relative;
-	color:#ffffff;
-	text-decoration:none;
-	height:2.5em;
-	line-height:2.5em;
-}
-
 html>body #menu .menu_container {
-	background-image:url(images/menu/first_menu.png);
+/*	background-image:url(images/menu/first_menu.png); */
+	margin-top:-6px;
 }
 
 
 .menu_end {
 	right:0;
-	width:21px;
-	height:80px;
+	width:11px;
+	height:49px;
 	background:transparent center left no-repeat;
 	position:absolute;
 	bottom:0;
@@ -165,14 +97,11 @@ html>body .menu_end {
 
 
 #menu ul li.current_page_ancestor a, #menu ul li:hover a, #menu ul li.current_page_parent a, #menu ul li.current_page_item a {
-	background-image:url(images/menu/reflect.png);
+/*	background-image:url(images/menu/reflect.png); */
+	color:#C61300;
 }
 
 
-#menu ul li li a {
-	background-image:none !important;
-	filter:none !important;
-}
 /*
 #menu ul li li a:hover, #menu ul li li.current_page_item a {
 	color:#ff6600;
@@ -187,7 +116,7 @@ html>body .menu_end {
 }
 
 #menu ul li:hover a, #menu ul li a:hover { /*, #menu ul li a:hover {*/
-	background-color:#3d3d3d;
+/*	background-color:#3d3d3d; */
 }
 /*
 #menu ul li.current_page_parent:hover a, #menu ul li.current_page_parent a:hover, #menu ul li.current_page_parent a, #menu ul li.current_page_item:hover a, #menu ul li.current_page_item a:hover, #menu ul li.current_page_item a, #menu ul li.current_page_parent a, #menu ul li.current_page_item a {

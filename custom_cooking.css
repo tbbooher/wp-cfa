@@ -12,10 +12,10 @@ body {
 	/*:Header image*/
 	/*:Header image alignment*/
 	float:left;
-	left:160px;
+	left:110px;
 	top: 15px;
-	height:82px;
-	width:380px;
+	height:95px;
+	width:500px;
 	position:absolute;
 	z-index:200;
 }
@@ -28,6 +28,7 @@ body {
 .sidebar_right #frame {
 	/*:Sidebar right width*/
 	padding-right:250px;
+	padding-top:70px;
 }
 
 #sidebar_left.sidebar {
