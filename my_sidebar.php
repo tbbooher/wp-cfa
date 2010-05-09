@@ -16,8 +16,11 @@ Tuesday/Thursday: 8 pm, Sunday: 7 pm
 
 <h2><a href="/location/">Directions</a></h2>
 
+!! address here !!
+
 <h2><a href="/coaches/" target="_blank">Team</a></h2>
 
-<!-- crossfit journal -->
-<!-- crossfit games -->
-<!-- crossfit ffr -->
+
+<p>crossfit journal</p>
+<p>crossfit games</p>
+<p>crossfit ffr</p>
