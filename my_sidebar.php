@@ -20,7 +20,10 @@ Tuesday/Thursday: 8 pm, Sunday: 7 pm
 
 <h2><a href="/coaches/" target="_blank">Team</a></h2>
 
+<i>need to add</i>
 
 <p>crossfit journal</p>
 <p>crossfit games</p>
 <p>crossfit ffr</p>
+
+add contact
