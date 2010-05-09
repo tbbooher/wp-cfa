@@ -138,3 +138,23 @@ h2, h2 a, h3, h3 a, .post blockquote, .post blockquote a, .author, .author a, .d
 	/*:Content color*/
 	border-left-color:#312A22;
 }
+
+#footer_content div.widget {
+    padding-top:8px;
+    width:250px;
+    float:left;
+    height:100%;
+    text-align:left;
+}
+#footer_content div h2.title {
+    margin-left:2px;
+    font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    font-size:medium;
+}
+
+#footer_content ul li {
+    margin-left:8px;
+    text-align:left;
+    list-style-type:none;
+}

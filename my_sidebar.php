@@ -14,7 +14,10 @@
 <h4>Yoga</h4>
 Tuesday/Thursday: 8 pm, Sunday: 7 pm
 
-<!-- should go in footer -->
-<h2>Store</h2>
-<a href="http://www.cafepress.com/cfadaptation" target="_blank">Click here to visit our online store!</a>
+<h2><a href="/location/">Directions</a></h2>
 
+<h2><a href="/coaches/" target="_blank">Team</a></h2>
+
+<!-- crossfit journal -->
+<!-- crossfit games -->
+<!-- crossfit ffr -->
