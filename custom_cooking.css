@@ -146,6 +146,10 @@ h2, h2 a, h3, h3 a, .post blockquote, .post blockquote a, .author, .author a, .d
     height:100%;
     text-align:left;
 }
+
+#footer_content div.widget h4 {
+	display:inline;
+}
 #footer_content div h2.title {
     margin-left:2px;
     font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
@@ -157,4 +161,16 @@ h2, h2 a, h3, h3 a, .post blockquote, .post blockquote a, .author, .author a, .d
     margin-left:8px;
     text-align:left;
     list-style-type:none;
+}
+
+/* schedule column */
+#sidebar .col1 {
+	width:140px;
+	font-weight:bold;
+	text-align:left;	
+}
+
+#sidebar td {
+	width:70px;
+	text-align:center;
 }

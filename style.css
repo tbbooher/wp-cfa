@@ -276,6 +276,24 @@ h2, h3 {
 	padding:0 0 0 0;
 }
 
+div.menu_h3_container {
+    width:100%;
+}
+
+.menu_h3 {
+   font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    font-size:small;
+	color:#585858;
+	font-weight:bolder;
+	float:left;
+}
+
+span.times {
+    float:left;
+    padding-left:10px;
+}
+
 h2 a, h3 a {
 	color:#4d9301;
 }
