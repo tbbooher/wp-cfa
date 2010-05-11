@@ -33,6 +33,12 @@
 	float: left;
 }
 
+#contentfull {
+	padding: .5em 0 .5em 0;
+	width: 750px;
+	float: left;	
+}
+
 #sidebar_left.sidebar div {
 	margin-right:20px;
 	padding-right:10px;

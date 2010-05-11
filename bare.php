@@ -7,7 +7,7 @@ Template Name: Bare
 
 <?php get_header(); ?>
 
-	<div id="content">
+	<div id="contentfull">
 	
 	<?php if (have_posts()) : ?>
 		
@@ -31,10 +31,6 @@ Template Name: Bare
 	<?php endif; ?>
 		
 	</div>
-
-	<?php // sidebars ?>
-	<?php if ($freshy_options['sidebar_right'] == true) get_sidebar(); ?>
-	<?php if ($freshy_options['sidebar_left'] == true) include (TEMPLATEPATH . '/sidebar_left.php'); ?>
 		
 </div>
 
