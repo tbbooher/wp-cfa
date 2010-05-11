@@ -12,7 +12,7 @@ body {
 	/*:Header image*/
 	/*:Header image alignment*/
 	float:left;
-	left:110px;
+	left:175px;
 	top: 15px;
 	height:95px;
 	width:500px;
@@ -179,11 +179,12 @@ h2, h2 a, h3, h3 a, .post blockquote, .post blockquote a, .author, .author a, .d
 
 div.coach {
     width:100%;
-    background-color:gray;
+    border-top:1px solid gray;
 }
 
 div.coach_title {
     font-weight:bold;
+    font-size:medium;
 }
 
 .coachpic {
@@ -195,9 +196,11 @@ div.coach_title {
 
 .coachdesc {
     float:right;
-    width:383px;
+    width:600px;
+    padding-right:10px;
 }
 
 .clear {
     clear:both;
+    height:10px;
 }

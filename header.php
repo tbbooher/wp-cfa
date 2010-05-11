@@ -11,6 +11,7 @@ $freshy_options = get_option('freshy_options');
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title>
 <?php bloginfo('name'); ?>
+
 <?php wp_title(); ?>
 </title>
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
@@ -28,7 +29,8 @@ $freshy_options = get_option('freshy_options');
 </head>
 <body>
 <div id="body">
-<div id="header"> <img src="/wp-content/themes/freshy2/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" />
+<div id="header">
+  <a href="/"><img src="/wp-content/themes/freshy2/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" /></a>
   <div class="container">
     <div id="title">
       <h1> <a href="<?php echo get_settings('home'); ?>"> <span></span> </a> </h1>
@@ -41,34 +43,14 @@ $freshy_options = get_option('freshy_options');
         <div class="menu_container">
           <ul>
             <li><a href="/about_us/"><img src="/wp-content/themes/freshy2/images/menu/about_us.png" alt="About Us" width="88" height="34"  />
-<div>See why we're different</div></a></li>
+              <div>See why we're different</div>
+              </a></li>
             <li><a href="/getting-started/"><img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
-<div>Ready for change?</div></a> </li>
-            <li><a href="/blog/"><img src="/wp-content/themes/freshy2/images/menu/blog.png" alt="Blog" width="47" height="34"  /><div>Experience our community</div></a></li>
+              <div>Ready for change?</div>
+              </a>
           </ul>
         </div>
-        <!--
-        <div class="menu_container">
-          <ul>
-            <?php if ($freshy_options['custom_quicklinks'])
-					{
-						foreach ($freshy_options['custom_quicklinks'] as $custom_quicklink)
-						{
-							?>
-            <li> <a href="<?php echo $custom_quicklink['url']; ?>">
-              <?php _e($custom_quicklink['label'],TEMPLATE_DOMAIN); ?>
-              </a> </li>
-            <?php
-						}
-					}
-					?>
-            <?php if($freshy_options['header_rss']) : ?>
-            <li><a title="rss" href="<?php bloginfo('rss2_url'); ?>" class="rss">rss</a></li>
-            <?php endif; ?>
-          </ul>
-          <?php if($freshy_options['header_search']) : include (TEMPLATEPATH . '/searchform.php');  endif; ?>
-        </div><!-- menu container --> 
-        <span class="menu_end"></span> --> </div>
+      </div>
       <!-- menu --> 
     </div>
     <!-- title --> 
