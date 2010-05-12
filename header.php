@@ -42,10 +42,12 @@ $freshy_options = get_option('freshy_options');
       <div id="menu">
         <div class="menu_container">
           <ul>
-            <li><a href="/about_us/"><img src="/wp-content/themes/freshy2/images/menu/about_us.png" alt="About Us" width="88" height="34"  />
+            <li><a href="/about_us/">
+            <img src="/wp-content/themes/freshy2/images/menu/about_us.png" alt="About Us" width="88" height="34"  />
               <div>See why we're different</div>
               </a></li>
-            <li><a href="/getting-started/"><img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
+            <li><a href="/getting-started/">
+            <img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
               <div>Ready for change?</div>
               </a>
           </ul>
@@ -53,7 +55,13 @@ $freshy_options = get_option('freshy_options');
       </div>
       <!-- menu --> 
     </div>
-    <!-- title --> 
+    <!-- title -->
+    <div id="topbar">
+    	<a href="/" title="Home">Home</a> |
+    	<a href="/Coaches/" title="Team">Team</a> |
+    	<a href="/Location_and_Schedule/" title="Location and Schedule">Location & Schedule</a> |
+    	<a href="/Benefits/" title="Benefits">Benefits</a>
+    </div>
     <!--
 		<div id="header_image">
 
