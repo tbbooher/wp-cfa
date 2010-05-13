@@ -40,12 +40,10 @@ $freshy_options = get_option('freshy_options');
       <div id="menu">
         <div class="menu_container">
           <ul>
-            <li><a href="/about_us/"> <img src="/wp-content/themes/freshy2/images/menu/about_us.png" alt="About Us" width="88" height="34"  />
-              <div>See why we're different</div>
-              </a></li>
             <li><a href="/getting-started/"> <img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
               <div>Ready for change?</div>
               </a>
+             </li>
           </ul>
         </div>
       </div>
@@ -55,8 +53,9 @@ $freshy_options = get_option('freshy_options');
     <div id="topbar">
       <ul>
         <li class="current_page_item"><a href="/" class="home" title="Home">Home</a></li>
+		<li><a href="/about_us/" title="About Us">About Us</a></li>
         <li><a href="/Coaches/" title="Team">Team</a></li>
-        <li><a href="/Location_and_Schedule/" title="Location and Schedule">Location & Schedule</a></li>
+        <li><a href="/location_and_schedule/" title="Location and Schedule">Location & Schedule</a></li>
         <li><a href="/Benefits/" title="Benefits">Benefits</a></li>
         <li><a href="http://www.cafepress.com/cfadaptation" title="Store">Store</a></li>
         <li><a href="javascript:void(0);" class="lastmenu"></a></li>
