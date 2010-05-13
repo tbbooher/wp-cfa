@@ -10,11 +10,11 @@ body {
 	/*:Header image*/
 	/*:Header image alignment*/
 	float:left;
-	left:254px;
+	left:14px;
 	top: 10px;
 	height:95px;
 	width:500px;
-	position:absolute;
+	position:relative;
 	z-index:200;
 }
 .sidebar_left #frame {

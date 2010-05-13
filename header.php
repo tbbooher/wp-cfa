@@ -58,6 +58,7 @@ $freshy_options = get_option('freshy_options');
         <li><a href="/Coaches/" title="Team">Team</a></li>
         <li><a href="/Location_and_Schedule/" title="Location and Schedule">Location & Schedule</a></li>
         <li><a href="/Benefits/" title="Benefits">Benefits</a></li>
+        <li><a href="http://www.cafepress.com/cfadaptation" title="Store">Store</a></li>
         <li><a href="javascript:void(0);" class="lastmenu"></a></li>
       </ul>
     </div>
