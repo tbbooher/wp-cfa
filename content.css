@@ -152,6 +152,7 @@ dl.aligncenter {
 .alignleft {
 	float: left;
 	padding-right:10px;
+	width:350px;
 }
 
 .alignright {
