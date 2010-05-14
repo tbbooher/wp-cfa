@@ -40,7 +40,7 @@ $freshy_options = get_option('freshy_options');
       <div id="menu">
         <div class="menu_container">
           <ul>
-            <li><a href="/getting-started/"> <img src="/wp-content/themes/freshy2/images/menu/get_started.png" alt="Get Started" width="119" height="34"  />
+            <li><a href="/getting-started/"> <img src="/wp-content/themes/freshy2/images/headers/GetStarted.png" alt="Get Started" width="160" height="42"  />
               <div>Ready for change?</div>
               </a>
              </li>
