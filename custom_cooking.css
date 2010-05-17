@@ -237,27 +237,27 @@ div#get_started_splash {
 }
 
 div#free_workout {
-float:left;
-height:83px;
-margin-left:118px;
-margin-top:27px;
-width:100px;
-text-align:center;r
+	float:left;
+	height:83px;
+	margin-left:118px;
+	margin-top:27px;
+	width:100px;
+	text-align:center;r
 }
 div#elements {
-float:left;
-height:83px;
-margin-left:26px;
-margin-top:27px;
-width:100px;
-text-align:center;
+	float:left;
+	height:83px;
+	margin-left:26px;
+	margin-top:27px;
+	width:100px;
+	text-align:center;
 }
 
 div#membership {
-text-align:center;
-float:left;
-height:83px;
-margin-left:26px;
-margin-top:36px;
-width:100px;
+	text-align:center;
+	float:left;
+	height:83px;
+	margin-left:26px;
+	margin-top:36px;
+	width:100px;
 }
