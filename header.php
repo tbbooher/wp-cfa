@@ -41,7 +41,7 @@ $freshy_options = get_option('freshy_options');
         <div class="menu_container">
           <ul>
             <li><a href="/getting-started/"> <img src="/wp-content/themes/freshy2/images/headers/GetStarted.png" alt="Get Started" width="160" height="42"  />
-              <div>Learn about our process and your next steps to joining CF Adaptation.</div>
+              <div>Take the next steps.</div>
               </a>
              </li>
           </ul>

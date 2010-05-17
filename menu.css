@@ -57,14 +57,14 @@ html>body #menu {
 
 #menu ul li a {
     font-family:Arial, Helvetica, Geneva, Verdana, sans-serif;
-    text-transform:uppercase;
     display:block;
     padding:0 2px;
     font-weight:normal;
     color:#FFF;
     text-decoration:none;
-    width:130px;
+    width:180px;
     height:90px;
+	font-size:14px;
 }
 
 #menu ul li a:hover {
@@ -98,7 +98,7 @@ html>body .menu_end {
 
 #menu ul li.current_page_ancestor a, #menu ul li:hover a, #menu ul li.current_page_parent a, #menu ul li.current_page_item a {
 /*	background-image:url(images/menu/reflect.png); */
-	color:#C61300;
+	color:black;
 }
 
 

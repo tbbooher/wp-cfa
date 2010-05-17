@@ -227,3 +227,38 @@ div#topbar ul {
 #topbar li.current_page_item a, #menus li.current-cat a {
 	background-position:0 -62px;
 }
+
+/* getting started page */
+
+div#get_started_splash {
+	text-align: center;
+	background:url(/wp-content/themes/freshy2/images/get-started.gif) no-repeat 0 0;
+	background-color:gray;	
+}
+
+div#free_workout {
+	background-color:red;
+	width:100px;
+	height:100px;
+	position:relative;
+	left:100px;
+	top:10px;
+}
+
+div#elements {
+	background-color:green;
+	width:100px;
+	height:100px;
+	position:relative;
+	left:100px;
+	top:10px;	
+}
+
+div#membership {
+	background-color:blue;
+	width:100px;
+	height:100px;
+	position:relative;
+	left:100px;
+	top:10px;
+}
