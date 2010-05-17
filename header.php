@@ -55,7 +55,8 @@ $freshy_options = get_option('freshy_options');
         <li class="current_page_item"><a href="/" class="home" title="Home">Home</a></li>
 		<li><a href="/about_us/" title="About Us">About Us</a></li>
         <li><a href="/Coaches/" title="Team">Team</a></li>
-        <li><a href="/location_and_schedule/" title="Location and Schedule">Location & Schedule</a></li>
+        <li><a href="/location/" title="Location">Location</a></li>
+        <li><a href="/schedule/" title="Schedule">Schedule</a></li>
         <li><a href="/Benefits/" title="Benefits">Benefits</a></li>
         <li><a href="javascript:void(0);" class="lastmenu"></a></li>
       </ul>
