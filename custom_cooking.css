@@ -270,3 +270,8 @@ div#membership {
 	margin-top:36px;
 	width:100px;
 }
+
+/* schedule page */
+tr.gray_back {
+	background-color:#CCC;	
+}
