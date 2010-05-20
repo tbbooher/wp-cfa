@@ -132,7 +132,7 @@ code {
 * html code {
 	background-image:none;
 	zoom:1;
-	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='wp-content/themes/freshy2/images/code_bg.png', sizingMethod='crop');
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='wp-content/themes/wp-cfa/images/code_bg.png', sizingMethod='crop');
 }
 
 

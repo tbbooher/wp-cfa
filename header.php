@@ -1,5 +1,5 @@
 <?php
-define ('TEMPLATE_DOMAIN','freshy2');
+define ('TEMPLATE_DOMAIN','wp-cfa');
 load_theme_textdomain(TEMPLATE_DOMAIN);
 global $freshy_options;
 $freshy_options = get_option('freshy_options');
@@ -28,7 +28,7 @@ $freshy_options = get_option('freshy_options');
 </head>
 <body>
 <div id="body">
-<div id="header"> <a href="/"><img src="/wp-content/themes/freshy2/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" /></a>
+<div id="header"> <a href="/"><img src="/wp-content/themes/wp-cfa/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" /></a>
   <div class="container">
     <div id="title">
       <h1> <a href="<?php echo get_settings('home'); ?>"> <span></span> </a> </h1>
@@ -40,7 +40,7 @@ $freshy_options = get_option('freshy_options');
       <div id="menu">
         <div class="menu_container">
           <ul>
-            <li><a href="/getting-started/"> <img src="/wp-content/themes/freshy2/images/headers/GetStarted.png" alt="Get Started" width="160" height="42"  />
+            <li><a href="/getting-started/"> <img src="/wp-content/themes/wp-cfa/images/headers/GetStarted.png" alt="Get Started" width="160" height="42"  />
               <div>Take the next steps.</div>
               </a>
              </li>

@@ -184,7 +184,7 @@ div#topbar ul {
 	padding:0;
 	padding-top:1px;
 	margin:0;
-	background:url("/wp-content/themes/freshy2/images/headers/BAC.png") repeat-x;
+	background:url("/wp-content/themes/wp-cfa/images/headers/BAC.png") repeat-x;
 }
 #topbar li {
 	display:inline;
@@ -231,7 +231,7 @@ div#topbar ul {
 /* getting started page */
 
 div#get_started_splash {
-	background:url(/wp-content/themes/freshy2/images/get_started.gif) no-repeat center;
+	background:url(/wp-content/themes/wp-cfa/images/get_started.gif) no-repeat center;
 	background-color:white;
 	height:120px;
 }

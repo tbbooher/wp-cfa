@@ -1,5 +1,5 @@
 Theme Name: Freshy 2
-Theme URI: http://www.jide.fr/english/downloads/freshy2
+Theme URI: http://www.jide.fr/english/downloads/wp-cfa
 Description: The Freshy WordPress theme, second edition.
 Version: 2.1.2
 Author: Julien De Luca
@@ -15,9 +15,9 @@ http://www.jide.fr/english/downloads/customize
 
 INSTALLATION :
 
--Copy the Freshy2 folder in the "themes" folder.
+-Copy the wp-cfa folder in the "themes" folder.
 -Go to your wordpress administration.
--Go to "Themes" and choose Freshy2.
+-Go to "Themes" and choose wp-cfa.
 -A new tab appears under the "Presentation" menu, named "Freshy Theme Options".
 
 CUSTOMIZATION :
