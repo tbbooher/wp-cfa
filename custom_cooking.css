@@ -149,7 +149,7 @@ h2, h2 a, h3, h3 a, .post blockquote, .post blockquote a, .author, .author a, .d
 
 div.coach {
 	width:100%;
-	border-top:1px solid gray;
+	border-top:1px solid #efefef;
 }
 div.coach_title {
 	font-weight:bold;
@@ -157,9 +157,8 @@ div.coach_title {
 }
 .coachpic {
 	float:left;
-	border:1px solid;
-	width:119px;
-	height:170px;
+	border:1px solid gray;
+	padding:0px;
 }
 .coachdesc {
 	float:right;
