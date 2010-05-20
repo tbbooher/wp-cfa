@@ -236,14 +236,23 @@ div#get_started_splash {
 	height:120px;
 }
 
+div#get_started_splash a {
+	margin:0;
+	padding:0;
+	height:100%;
+	color:black;
+	text-decoration:none;
+}
+
 div#free_workout {
 	float:left;
 	height:83px;
 	margin-left:118px;
 	margin-top:27px;
 	width:100px;
-	text-align:center;r
+	text-align:center;
 }
+
 div#elements {
 	float:left;
 	height:83px;
