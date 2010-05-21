@@ -34,7 +34,7 @@ html>body #menu {
 	padding:0;
 	height:30px;
 	background:center left transparent repeat-x;
-/*	position:relative; */ß
+/*	position:relative; */
 }
 
 #menu ul li {
@@ -65,6 +65,11 @@ html>body #menu {
     width:180px;
     height:90px;
 	font-size:14px;
+}
+
+#menu ul li a div {
+	margin-top:-14px;
+	margin-left:30px;
 }
 
 #menu ul li a:hover {
