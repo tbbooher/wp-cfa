@@ -54,7 +54,7 @@ Elements classes are filling up. Click to <a href="http://www.crossfitadaptation
         <div class="menu_container">
           <ul>
             <li><a href="/getting-started/"> <img src="/wp-content/themes/wp-cfa/images/headers/GetStarted.png" alt="Get Started" width="160" height="42"  />
-              <div>Take the next steps.</div>
+              <span style="display:block;">Take the next steps.</span>
               </a>
              </li>
           </ul>
