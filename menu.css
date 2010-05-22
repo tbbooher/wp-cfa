@@ -65,13 +65,12 @@ html>body #menu {
     width:180px;
     height:90px;
 	font-size:14px;
-	margin-top:-14px;
-	margin-left:30px;
 }
 
-#menu ul li a div {
+#menu ul li a span {
 	margin-top:-14px;
 	margin-left:30px;
+	display:block;
 }
 
 #menu ul li a:hover {
