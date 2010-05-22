@@ -6,6 +6,10 @@ body {
 	behavior:url(<?php print $path; ?>csshover2.htc);
 }
 
+#header {
+  background-color:red;
+}
+
 * html #page, * html #header {
 	padding:0 10px 0 10px;
 	zoom:1;
