@@ -46,15 +46,10 @@ Elements classes are filling up. Click to <a href="http://www.crossfitadaptation
 </head>
 <body>
 <div id="body">
-<div id="header"> <a href="/"><img src="/wp-content/themes/wp-cfa/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" /></a>
+<div id="header"> 
   <div class="container">
     <div id="title">
-      <h1> <a href="<?php echo get_settings('home'); ?>"> <span></span> </a> </h1>
-      <!--
-			<div class="description">
-				<small><?php bloginfo('description'); ?></small>
-			</div>
-            -->
+    <a href="/"><img src="/wp-content/themes/wp-cfa/images/headers/CFA-Logo.png" alt="CrossFit Adaptation" width="500" height="95" id="logo" /></a>
       <div id="menu">
         <div class="menu_container">
           <ul>
