@@ -26,17 +26,6 @@ header( 'Pragma: no-cache' );
 <!--[if lte IE 6]>
 <link rel="stylesheet" href="<?php print get_bloginfo('stylesheet_directory').'/fix-ie.php'; ?>" type="text/css" media="screen"/>
 <![endif]-->
-<!--[if IE 7]>
-<div align="center" style="font-size:30px; padding-top:20px;padding-bottom:20px;">Crossfit Adaptation</div>
-<div align="center" style="font-size:15px; padding-bottom:20px;">Site Currently under construction for internet explorer, please excuse our mess. This should be fixed by 22 May 2010<br />
-Elements classes are filling up. Click to <a href="http://www.crossfitadaptation.com/getting-started-2/">get started</div>.
-</div>
-  <style type="text/css">
-  div#header {
-     display:none;
-  }
-  </style>
-<![endif]-->
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
