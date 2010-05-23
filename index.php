@@ -70,5 +70,11 @@
 	<?php if ($freshy_options['sidebar_left'] == true) include (TEMPLATEPATH . '/sidebar_left.php'); ?>
 	
 </div>
-
+<div id="pics" align="center">
+<?php get_flickrRSS(array(
+    'num_items' => 9, 
+    'type' => 'public', 
+    'tags' => 'FirstAngie')); 
+?>
+</div>
 <?php get_footer(); ?>

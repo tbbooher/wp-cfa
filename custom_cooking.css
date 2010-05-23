@@ -292,3 +292,19 @@ tr.gray_back {
 div.entry a img {
 	border:3px solid gray;	
 }
+
+/* pics */
+div#pics {
+   background-color:white;
+   border-top:1px solid #D0D0D0;
+   padding:10px 0 4px;
+}
+
+div#pics a {
+  padding:0 3px;
+  line-height:0;
+}
+
+div#pics a img {
+  border:1px solid gray;
+}
